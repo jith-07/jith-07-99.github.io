@@ -1,0 +1,44 @@
+@import url("fonts.css");
+@import url("fontello/css/fontello.css");
+@import url("font-awesome/css/font-awesome.min.css");
+*,
+*:before,
+*:after {
+   box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+   color: #313131;
+	font-family: 'opensans-bold', sans-serif;
+   font-weight: normal;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
+h1 { font-size: 38px; line-height: 42px; margin-bottom: 12px; letter-spacing: -1px; }
+h2 { font-size: 28px; line-height: 36px; margin-bottom: 6px; }
+h3 { font-size: 22px; line-height: 30px; margin-bottom: 12px; }
+h4 { font-size: 20px; line-height: 30px; margin-bottom: 6px; }
+h5 { font-size: 18px; line-height: 30px; }
+h6 { font-size: 14px; line-height: 30px; }
+
+.row {
+   width: 96%;
+   max-width: 1020px;
+   margin: 0 auto;
+}
+.column, .columns {
+   position: relative;
+   padding: 0 20px;
+   min-height: 1px;
+   float: left;
+}
+.row .one         { width: 8.33333%; }
+.row .two         { width: 16.66667%; }
+.row .three       { width: 25%; }
+.row .four        { width: 33.33333%; }
+.row .five        { width: 41.66667%; }
+.row .six         { width: 50%; }
+.row .seven       { width: 58.33333%; }
+.row .eight       { width: 66.66667%; }
+.row .nine        { width: 75%; }
+.row .ten         { width: 83.33333%; }
+.row .eleven      { width: 91.66667%; }
+.row .twelve      { width: 100%; }
